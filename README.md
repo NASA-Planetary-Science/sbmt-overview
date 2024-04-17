@@ -1,93 +1,123 @@
-# stmt-overview
+![SBMT banner image](resources/banner.png)
 
-
-
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin http://quiver.jhuapl.edu/sbmt/stmt-overview.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](http://quiver.jhuapl.edu/sbmt/stmt-overview/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
+![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/sbmt-overview)
 
 ## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+Spacecraft missions return massive amounts of valuable data, but those data can be hard to access, analyze, and interpret. Asteroids, comets, and small moons present additional challenges: the irregular shapes of these bodies are ill-suited for two-dimensional projections.
+
+The Small Body Mapping Tool (SBMT) addresses these challenges. The SBMT is an interactive tool that allows users to visualize and manipulate small body shape models in three dimensions. The Tool enables quick and easy searches for spacecraft data of a variety of small bodies. Once selected, data can be projected directly onto the shape models, and built-in analysis and mapping capabilities facilitate scientific investigations. Click here to explore the broad range of objects and datasets available in the SBMT.
+
+The SBMT has been used by several flight mission teams, including Dawn, Rosetta, OSIRIS-REx, and Hayabusa2. Mission-specific shape models, data, and features will be available to all SBMT users once the mission data become publicly available.
+
+## Referencing the Small Body Mapping Tool
+
+Currently, the best reference to cite for the SBMT is [Ernst et al., 2018, The Small Body Mapping Tool (SBMT) for Accessing, Visualizing, and Analyzing Spacecraft Data in Three Dimensions, LPSC 49, abstract no. 1043](http://sbmt.jhuapl.edu/pubs/Ernst_LPSC2018_SBMT.pdf). Click [here](http://sbmt.jhuapl.edu/References.php) for a list of papers and abstracts that have described or used the SBMT.
+
+This Github repository can also be reference via the DOI located on the right side of the project.
+
+## Data Available in the Small Body Mapping Tool
+
+There are many bodies available, see [the bodies page](bodies.md) for more information.
+
+## The SBMT Libraries
+
+The Small Body Mapping Tool is made up of a series of libraries, and are maintained in other repositories in this GitHub organization.
+
+| Repo | Last Release | Last Commit | 
+| ---- | ------------ | ----------- |
+| [sbmt-core](https://github.com/NASA-Planetary-Science/sbmt-core) | ![GitHub Release](https://img.shields.io/github/v/release/NASA-Planetary-Science/sbmt-core?label=%22%22) | ![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/sbmt-core?label=%22%22)| 
+| [sbmt-layer](https://github.com/NASA-Planetary-Science/sbmt-layer) | ![GitHub Release](https://img.shields.io/github/v/release/NASA-Planetary-Science/sbmt-layer?label=%22%22) | ![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/sbmt-layer?label=%22%22)| 
+| [sbmt-pipeline](https://github.com/NASA-Planetary-Science/sbmt-pipeline) | ![GitHub Release](https://img.shields.io/github/v/release/NASA-Planetary-Science/sbmt-pipeline?label=%22%22) | ![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/sbmt-pipeline?label=%22%22)| 
+| [sbmt-pointing](https://github.com/NASA-Planetary-Science/sbmt-pointing) | ![GitHub Release](https://img.shields.io/github/v/release/NASA-Planetary-Science/sbmt-pointing?label=%22%22) | ![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/sbmt-pointing?label=%22%22)| 
+| [sbmt-config](https://github.com/NASA-Planetary-Science/sbmt-config) | ![GitHub Release](https://img.shields.io/github/v/release/NASA-Planetary-Science/sbmt-config?label=%22%22) | ![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/sbmt-config?label=%22%22)| 
+| [sbmt-query](https://github.com/NASA-Planetary-Science/sbmt-query) | ![GitHub Release](https://img.shields.io/github/v/release/NASA-Planetary-Science/sbmt-query?label=%22%22) | ![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/sbmt-query?label=%22%22)| 
+| [sbmt-util](https://github.com/NASA-Planetary-Science/sbmt-util) | ![GitHub Release](https://img.shields.io/github/v/release/NASA-Planetary-Science/sbmt-util?label=%22%22) | ![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/sbmt-util?label=%22%22)| 
+| [sbmt-image](https://github.com/NASA-Planetary-Science/sbmt-image) | ![GitHub Release](https://img.shields.io/github/v/release/NASA-Planetary-Science/sbmt-image?label=%22%22) | ![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/sbmt-image?label=%22%22)| 
+| [sbmt-spectrum](https://github.com/NASA-Planetary-Science/sbmt-spectrum) | ![GitHub Release](https://img.shields.io/github/v/release/NASA-Planetary-Science/sbmt-spectrum?label=%22%22) | ![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/sbmt-spectrum?label=%22%22)| 
+| [sbmt-dem](https://github.com/NASA-Planetary-Science/sbmt-dem) | ![GitHub Release](https://img.shields.io/github/v/release/NASA-Planetary-Science/sbmt-dem?label=%22%22) | ![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/sbmt-dem?label=%22%22)| 
+| [sbmt-lidar](https://github.com/NASA-Planetary-Science/sbmt-lidar) | ![GitHub Release](https://img.shields.io/github/v/release/NASA-Planetary-Science/sbmt-lidar?label=%22%22) | ![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/sbmt-lidar?label=%22%22)| 
+| [sbmt-stateHistory](https://github.com/NASA-Planetary-Science/sbmt-stateHistory) | ![GitHub Release](https://img.shields.io/github/v/release/NASA-Planetary-Science/sbmt-stateHistory?label=%22%22) | ![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/sbmt-stateHistory?label=%22%22)| 
+| [sbmt-model](https://github.com/NASA-Planetary-Science/sbmt-model) | ![GitHub Release](https://img.shields.io/github/v/release/NASA-Planetary-Science/sbmt-model?label=%22%22) | ![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/sbmt-model?label=%22%22)| 
+| [sbmt-client](https://github.com/NASA-Planetary-Science/sbmt-client) | ![GitHub Release](https://img.shields.io/github/v/release/NASA-Planetary-Science/sbmt-client?label=%22%22) | ![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/sbmt-client?label=%22%22)| 
+
 
 ## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+
+The SBMT allows users to visualize scientific data on irregularly shaped bodies in our solar system.  The image below shows data such as lineaments, structures, spectral footprints, images, LIDAR, and plate colorings on the body Eros, as captured with the NEAR spacecraft. 
+
+![SBMT display showing NEAR data on Eros](resources/SBMT_eros.png)
 
 ## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+Once all libraries have been made available, build and installation directions will be posted here.
 
 ## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+For help with any of the SBMT framework libraries, please file an issue under the appropriate project.  For help running SBMT, you can email [sbmt@jhuapl.edu](mailto:sbmt@jhuapl.edu)
 
 ## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+
+The general SBMT roadmap:
+
 
 ## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+We welcome pull requests on any of the SBMT projects.  However, due to funding constraints, there is no guarantee that pull requests will be merged with the main line code or even reviewed. We will do the best we can.
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+To contribute: fork, then clone the repo in question.  For example, for sbmt-core:
+
+```
+git clone git@github.com:your-username/sbmt-core.git
+```
+
+Make your changes, and push them to your fork.  Then submit a pull request.
+
+Things that will help increase that your pull request is reviewed and accepted:
+
+- Write tests (and make sure they pass!)
+- Write a [good commit message](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
 ## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+
+### Our special thanks go out to:
+
+- Eli Kahn (original author at JHU/APL)
+
+### Science Leads:
+
+- Oliver Barnouin
+- Carolyn Ernst
+- Terik Daly
+
+### Developers over the years at APL:
+- Josh Steele (current technical lead)
+- James Peachey
+- Norberto Lopez
+- Mike Zimmerman
+- Russell Taylor
+- Lillian Nguyen
+- Bridget Carr
+- Colleen O'Shea
+
+Funding for the Small Body Mapping Tool has come from many sources over the years, including but not limited to:
+
+- 2019 PDART (need full reference here)
+- The OSIRIS REx mission (NASA)
+- The LUCY Mission (NASA)
+- The Hayabusa 2 Mission (NASA)
+- The NEAR Mission (NASA)
+- The DART Mission (NASA)
 
 ## License
-For open source projects, say how it is licensed.
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+All SBMT projects are MIT licensed, and contain the following in their LICENSE.md files in each project:
+
+Copyright 2024 Johns Hopkins University Applied Physics Laboratory, LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
