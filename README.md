@@ -5,10 +5,10 @@
 ## Description
 
 Spacecraft missions return massive amounts of valuable data, but those data can be hard to access, analyze, and interpret. Asteroids, comets, and small moons present additional challenges: the irregular shapes of these bodies are ill-suited for two-dimensional projections.
-
-The Small Body Mapping Tool (SBMT) addresses these challenges. The SBMT is an interactive tool that allows users to visualize and manipulate small body shape models in three dimensions. The Tool enables quick and easy searches for spacecraft data of a variety of small bodies. Once selected, data can be projected directly onto the shape models, and built-in analysis and mapping capabilities facilitate scientific investigations. Click here to explore the broad range of objects and datasets available in the SBMT.
-
-The SBMT has been used by several flight mission teams, including Dawn, Rosetta, OSIRIS-REx, and Hayabusa2. Mission-specific shape models, data, and features will be available to all SBMT users once the mission data become publicly available.
+ 
+The Small Body Mapping Tool (SBMT) addresses these challenges. The SBMT is an interactive tool that allows users to visualize and manipulate small body shape models in three dimensions. The Tool enables quick and easy searches for spacecraft data of a variety of small bodies. Once selected, data can be projected directly onto the shape models, and built-in analysis and mapping capabilities facilitate scientific investigations.
+ 
+The SBMT has been used by several flight mission teams, including Dawn, Rosetta, OSIRIS-REx, Hayabusa2, MMX, Lucy, and Dragonfly. Mission-specific shape models, data, and features will be available to all SBMT users once the mission data become publicly available.
 
 ## Referencing the Small Body Mapping Tool
 
@@ -55,10 +55,6 @@ Once all libraries have been made available, build and installation directions w
 ## Support
 For help with any of the SBMT framework libraries, please file an issue under the appropriate project.  For help running SBMT, you can email [sbmt@jhuapl.edu](mailto:sbmt@jhuapl.edu)
 
-## Roadmap
-
-The general SBMT roadmap:
-
 
 ## Contributing
 
@@ -77,7 +73,7 @@ Things that will help increase that your pull request is reviewed and accepted:
 - Write tests (and make sure they pass!)
 - Write a [good commit message](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
-## Authors and acknowledgment
+## Authors and acknowledgments
 
 ### Our special thanks go out to:
 
@@ -92,20 +88,20 @@ Things that will help increase that your pull request is reviewed and accepted:
 ### Developers over the years at APL:
 - Josh Steele (current technical lead)
 - James Peachey
+- Allison Glantzberg
 - Norberto Lopez
 - Mike Zimmerman
 - Russell Taylor
 - Lillian Nguyen
 - Bridget Carr
 - Colleen O'Shea
+- Alex Welsh
 
 Funding for the Small Body Mapping Tool has come from many sources over the years, including but not limited to:
 
 - 2019 PDART (need full reference here)
 - The OSIRIS REx mission (NASA)
 - The LUCY Mission (NASA)
-- The Hayabusa 2 Mission (NASA)
-- The NEAR Mission (NASA)
 - The DART Mission (NASA)
 
 ## License
