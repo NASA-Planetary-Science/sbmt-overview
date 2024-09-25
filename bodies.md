@@ -3,7 +3,7 @@
 The SBMT specializes in small bodies that have been, are, or may/will soon be the targets of spacecraft encounters. Several other databases host shape models of small bodies. These include, but are not limited to, the [PDS Asteroid/Dust Archive](https://sbn.psi.edu/pds/shape-models/), the [Database of Asteroid Models from Inversion Techniques (DAMIT)](http://astro.troja.mff.cuni.cz/projects/asteroids3D/web.php), the [3D Asteroid Catalogue](https://space.frieger.com/asteroids/asteroids/), [shapes derived from VLT/STEREO data](http://observations.lam.fr/astero/), and a [JPL database of asteroid shape models](https://echo.jpl.nasa.gov/asteroids/shapes/shapes.html). Interested users can download a model from one of these other sources and then visualize the shape using the "custom data" capability in the Small Body Mapping Tool.
 
 
-##ASTEROIDS
+## ASTEROIDS
 
 ### Main Belt
 - [1 Ceres](https://sbmt.jhuapl.edu/Object-Template.php?obj=29)
