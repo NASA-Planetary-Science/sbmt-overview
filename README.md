@@ -26,6 +26,7 @@ The Small Body Mapping Tool is made up of a series of libraries, and are maintai
 
 | Repo | Last Release | Last Commit | 
 | ---- | ------------ | ----------- |
+| [saavtk](https://github.com/NASA-Planetary-Science/saavtk) | ![GitHub Release](https://img.shields.io/github/v/release/NASA-Planetary-Science/saavtk?label=%22%22) | ![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/saavtk?label=%22%22)| 
 | [sbmt-core](https://github.com/NASA-Planetary-Science/sbmt-core) | ![GitHub Release](https://img.shields.io/github/v/release/NASA-Planetary-Science/sbmt-core?label=%22%22) | ![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/sbmt-core?label=%22%22)| 
 | [sbmt-layer](https://github.com/NASA-Planetary-Science/sbmt-layer) | ![GitHub Release](https://img.shields.io/github/v/release/NASA-Planetary-Science/sbmt-layer?label=%22%22) | ![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/sbmt-layer?label=%22%22)| 
 | [sbmt-pipeline](https://github.com/NASA-Planetary-Science/sbmt-pipeline) | ![GitHub Release](https://img.shields.io/github/v/release/NASA-Planetary-Science/sbmt-pipeline?label=%22%22) | ![GitHub last commit](https://img.shields.io/github/last-commit/NASA-Planetary-Science/sbmt-pipeline?label=%22%22)| 
@@ -99,10 +100,12 @@ Things that will help increase that your pull request is reviewed and accepted:
 
 Funding for the Small Body Mapping Tool has come from many sources over the years, including but not limited to:
 
-- 2019 PDART (need full reference here)
-- The OSIRIS REx mission (NASA)
-- The LUCY Mission (NASA)
+- 2019 PDART (award number: 80NSSC20K1058)
+- The OSIRIS-REx mission (NASA)
+- The Lucy Mission (NASA)
 - The DART Mission (NASA)
+- The Rosetta Mission (ESA)
+- The MMX Mission (via NASA/MEGANE)
 
 ## License
 
